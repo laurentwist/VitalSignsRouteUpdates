@@ -30,7 +30,7 @@ export function Root({ children }) {
         // reset the staffID of the logged-in staff
         setLoggedInStaff(null)
         // navigate back to the home route ("/")
-        navigate("/VitalSignsRouteUpdates/")
+        navigate("/")
     }
 
     return (
