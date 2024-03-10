@@ -7,7 +7,7 @@ import { Patient, Patients } from './components/patient'
 
 const router = createBrowserRouter([
     {
-        path: '/VitalSignsRouteUpdates/',
+        path: '/',
         element: <Root/>,
         errorElement: <Root><ErrorPage/></Root>,
         children: [
